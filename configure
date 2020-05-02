@@ -1,5 +1,5 @@
 #!/bin/bash
-echo This configrue script checks if all source files are properly formatted
+echo This configrue script could be used to adapt to the linux distribution if needed
 
 exit 0
 
