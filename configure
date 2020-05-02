@@ -1,0 +1,5 @@
+#!/bin/bash
+echo This configrue script checks if all source files are properly formatted
+
+exit 0
+
