@@ -1,0 +1,1 @@
+ The qemu directory should contains a fork of qemu, which adds a skeleton to simulate the TDA4's A72 core.

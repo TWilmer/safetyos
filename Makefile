@@ -14,6 +14,7 @@ check:
 distcheck:
 	@ $(foreach src,$(SRC), \
 	echo Checking: $(src) ; \
+	cpplint $(src) ; \
 	( clang-format --style=Google  -output-replacements-xml $(src) | grep "<replacement ") && { echo "failure!"; exit 1; }  || { echo "success!";  } \
 	)
 
